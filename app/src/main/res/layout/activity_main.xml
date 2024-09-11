@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/scnd_button"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#C2C0C5"
+        android:fontFamily="monospace"
+        android:text="Chuck Norris Facts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0D5EEC"
+        android:textColorHighlight="#914444"
+        android:textColorHint="#3AC0D8"
+        android:textColorLink="#7A2A2A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#C2C0C5"
+        android:fontFamily="monospace"
+        android:text="Intent user"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0D5EEC"
+        android:textColorHighlight="#914444"
+        android:textColorHint="#3AC0D8"
+        android:textColorLink="#7A2A2A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
